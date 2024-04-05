@@ -34,6 +34,7 @@ body{
 }
 
 div{
+   
     padding: 3rem;
     display: flex;
     justify-content: center;
@@ -41,4 +42,11 @@ div{
     border-radius: 1rem;
     width: 45rem;
     height: 45rem;
+}
+
+.lamp{
+
+    background: url(/img/lampaan.jpeg);
+    background-repeat:no-repeat ;
+    background-position: center;
 }
