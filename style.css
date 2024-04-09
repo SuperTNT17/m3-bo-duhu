@@ -37,13 +37,37 @@ body{
 }
 
 .title{
-   
+    width: 15rem;
     border: 0.1rem solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
     border-radius: 1rem;
-    ;
 
 }
+
+.on ,.off{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    gap: 3rem ;
+}
+
+div > button{
+    width: 15rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    background: whitesmoke;
+    font-size: 5rem;
+}
+img{
+    width: 70%;
+    height: 70%;
+}
+
+
