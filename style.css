@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 html{
     font-size: 62.5%;
 }
@@ -23,18 +21,14 @@ body{
     display: flex;
     gap: 4rem;
     flex-wrap: wrap;
-
 }
 
 .collectionsListItem {
-    width: 40rem;
-    height: 60rem;
+    width: 30vw;
+    height: 60vh;
     background: white;
     box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
     flex-shrink: 1;
     flex-grow: 1;
     border-radius: 2rem;
 }
-
-
-
