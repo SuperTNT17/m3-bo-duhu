@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="406.869" height="237.337" viewBox="0 0 406.869 237.337">
+  <path id="Path_42" data-name="Path 42" d="M30.361,57.951s34.331,6.427,93.118-63.181C171.688-62.312,174.032-174.8,241.789-174.2c70.311.619,65.5,109.4,116.444,168.974,57.54,67.28,78.047,63.181,78.047,63.181" transform="translate(-29.901 176.706)" fill="none" stroke="#707070" stroke-width="5"/>
+  <circle
+    r="10"
+    cy="100"
+    cx="130"
+    id="dot"
+    style="fill: yellow" />
+</svg>
