@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 body{
@@ -47,6 +48,7 @@ body{
 
 }
 
+<<<<<<< HEAD
 .on ,.off{
     font-family: sans-serif;
     display: flex;
@@ -71,3 +73,44 @@ img{
 }
 
 
+=======
+#fourth-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth-card > div{
+    display: flex;
+    gap: 10rem;
+}
+
+.time-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.time-input > label{
+    background-color: yellow;
+    font-size: 6rem;
+}
+
+.time-input > input{
+    width: 10rem;
+    height: 5rem;
+    font-size: 3rem;
+}
+
+#fifth-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sixth-card{
+    padding: 2rem;
+}
+>>>>>>> robin
