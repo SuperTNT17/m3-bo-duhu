@@ -110,9 +110,10 @@ img{
 }
 
 .time-input > input{
-    width: 10rem;
+    width: 14rem;
     height: 5rem;
     font-size: 3rem;
+
 }
 
 #fifth-card{
