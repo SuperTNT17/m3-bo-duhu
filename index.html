@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-    <title>Duurzaam huis dashboard</title>
-    <meta name="description" content="Dit is het dashboard voor het duurzame huis. Je kan hier aflezen hoe duurzaam het huis is en je kan de verschillende lampen aansturen.">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <script src="main.js" defer></script>
+     <title>Duurzaam huis dashboard</title>
+     <meta name="description"
+          content="Dit is het dashboard voor het duurzame huis. Je kan hier aflezen hoe duurzaam het huis is en je kan de verschillende lampen aansturen.">
 </head>
 
 <body>
      <section class="collections">
-          
+
           <ul class="collectionList">
                <li class="collectionsListItem">
                     <h2 class="title"> lamp's </h2>
@@ -25,8 +27,18 @@
                     <h2 class="title"> In house</h2>
                </li>
 
-               <li class="collectionsListItem">
-
+               <li class="collectionsListItem" id="fourth-card">
+                    <img src="img/lampaan.jpeg">
+                    <div>
+                         <div class="time-input">
+                              <label for="time-on">On</label>
+                              <input type="time" id="time-on" name="time-on" min="00:00" max="23:59" required />
+                         </div>
+                         <div class="time-input">
+                              <label for="time-off">Off</label>
+                              <input type="time" id="time-off" name="time-off" min="00:00" max="23:59" required />
+                         </div>
+                    </div>
                </li>
 
                <li class="collectionsListItem">
@@ -34,7 +46,7 @@
                </li>
 
                <li class="collectionsListItem">
-               
+
                </li>
 
                <li class="collectionsListItem">
