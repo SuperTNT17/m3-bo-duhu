@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-html{
+html {
     font-size: 62.5%;
     font-family: sans-serif;
 }
 
-body{
+body {
     padding: 2rem;
     justify-content: space-evenly;
     display: flex;
@@ -39,7 +39,7 @@ body{
     flex-direction: column;
 }
 
-.title{
+.title {
     width: 15rem;
     border: 0.1rem solid black;
     display: flex;
@@ -50,16 +50,16 @@ body{
 
 }
 
-#ButtonOn{
-   background: yellow;
+#ButtonOn {
+    background: yellow;
 }
 
-div{
+div {
     display: flex;
-    gap: 3rem ;
+    gap: 3rem;
 }
 
-div > button{
+div>button {
     width: 15rem;
     border-radius: 1rem;
     border: 0.1rem solid black;
@@ -67,98 +67,95 @@ div > button{
     font-size: 5rem;
     cursor: pointer;
 
-    
-
 }
 
-img{
+img {
     width: 70%;
     height: 70%;
 }
 
-#fourth-card{
+#fourth-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.huisImg{
+.huisImg {
     z-index: 1
 }
 
-.graden{
-   display: flex;
-   align-items: center;
+.graden {
+    display: flex;
+    align-items: center;
     font-size: 3rem;
 }
 
-#fourth-card > div{
+#fourth-card>div {
     display: flex;
     gap: 10rem;
 }
 
-.time-input{
+.time-input {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
 }
 
-.time-input > label{
+.time-input>label {
     background-color: yellow;
     font-size: 6rem;
 }
 
-.time-input > input{
+.time-input>input {
     width: 14rem;
     height: 5rem;
     font-size: 3rem;
 
 }
 
-#fifth-card{
+#fifth-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#sixth-card{
+#sixth-card {
     padding: 2rem;
 }
 
-    }
 
 
-    
-    html{
-        font-size: 62.5%;
-        font-family: sans-serif;
-    }
-    
-    body{
-        padding: 2rem;
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: row;
-        font-size: 2rem;
-    }
-    
-    .collectionList {
-        list-style: none;
-        display: flex;
-        gap: 4rem;
-        flex-wrap: wrap;
 
-    }
-    
-    .collectionsListItem {
-        width: 30vw;
-        height: 60vh;
-        background: white;
-        box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
-        flex-shrink: 1;
-        flex-grow: 1;
-        border-radius: 2rem;
-    }
 
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 2rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.collectionList {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+}
+
+.collectionsListItem {
+    width: 30vw;
+    height: 60vh;
+    background: white;
+    box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 2rem;
+}
