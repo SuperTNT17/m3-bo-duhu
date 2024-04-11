@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     font-size: 2rem;
+    background: whitesmoke;
 }
 
 .collectionList {
@@ -28,7 +29,7 @@ body{
     width: 30vw;
     height: 60vh;
     background: white;
-    box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 1rem 2rem 0.5rem 0 rgba(0, 0, 0, 0.2);
     flex-shrink: 1;
     flex-grow: 1;
     border-radius: 2rem;
@@ -85,11 +86,10 @@ img{
     z-index: 1
 }
 
-.gradenOut{
+.graden{
    display: flex;
    align-items: center;
-    border: 0.1rem solid black;
-    border-radius: 0.8rem;
+    font-size: 3rem;
 }
 
 #fourth-card > div{
