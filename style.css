@@ -48,7 +48,6 @@ body{
 
 }
 
-<<<<<<< HEAD
 .on ,.off{
     font-family: sans-serif;
     display: flex;
@@ -72,8 +71,6 @@ img{
     height: 70%;
 }
 
-
-=======
 #fourth-card{
     display: flex;
     flex-direction: column;
@@ -113,4 +110,3 @@ img{
 #sixth-card{
     padding: 2rem;
 }
->>>>>>> robin
