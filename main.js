@@ -11,6 +11,10 @@ off.addEventListener("click", () => {
     img.src = "/img/lampuit.png";
 })
 
+let timeText = document.getElementById("timeText");
+let time = new Date(Date.now());
+timeText.innerText = `${time.getHours()}:${time.getMinutes()}`;
+
 const ctx = document.getElementById('verbruikChart');
 
 let data = {

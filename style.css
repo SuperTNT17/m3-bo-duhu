@@ -123,6 +123,10 @@ img {
     justify-content: center;
 }
 
+#timeText{
+    font-size: 4rem;
+}
+
 #sixth-card {
     padding: 2rem;
 }
