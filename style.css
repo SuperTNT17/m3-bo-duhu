@@ -47,10 +47,8 @@ body{
 
 }
 
-.on ,.off{
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+#ButtonOn{
+   background: yellow;
 }
 
 div{
@@ -64,10 +62,23 @@ div > button{
     border: 0.1rem solid black;
     background: whitesmoke;
     font-size: 5rem;
+    cursor: pointer;
+    ;
 }
 img{
     width: 70%;
     height: 70%;
 }
 
+.huisImg{
+    z-index: 1
+}
+
+.gradenOut{
+   display: flex;
+   align-items: center;
+    border: 0.1rem solid black;
+    border-radius: 0.8rem;
+
+}
 
