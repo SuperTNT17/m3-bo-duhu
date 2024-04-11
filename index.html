@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duurzaam huis dashboard</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     
+     <script src="main.js"></script>
+     <title>Duurzaam huis dashboard</title>
 </head>
+
 <body>
-    <h1>Welkom op de pagina van DreamGreen</h1>
+     <section class="collections">
+          
+          
+          <ul class="collectionList">
+                    <li class="collectionsListItem">
+                         <h2 class="title"> lamp's </h2>
+                    </li>
+     
+                    <li class="collectionsListItem">
+                         <h2 class="title"> Out house</h2>
+                    </li>
+     
+                    <li class="collectionsListItem">
+                         <h2 class="title"> In house</h2>
+                    </li>
+     
+                    <li class="collectionsListItem" id="fourth-card">
+                         <img src="img/lampaan.jpeg">
+                         <div>
+                              <div class="time-input">
+                                   <label for="time-on">On</label>
+                                   <input type="time" id="time-on" name="time-on" min="00:00" max="23:59" required />
+                              </div>
+                              <div class="time-input">
+                                   <label for="time-off">Off</label>
+                                   <input type="time" id="time-off" name="time-off" min="00:00" max="23:59" required />
+                              </div>
+                         </div>
+                    </li>
+
+               <li class="collectionsListItem">
+
+               </li>
+
+               <li class="collectionsListItem">
+
+               </li>
+
+               <li class="collectionsListItem">
+                    <h2>lamp is aan</h2>
+               </li>
+
+               <li class="collectionsListItem">
+                <canvas id="weatherForecastChart"></canvas>
+               </li>
+
+               <li class="collectionsListItem">
+                <canvas id="myChart"></canvas>
+               </li>
+
+          </ul>
+     </section>
+
 </body>
+
 </html>
