@@ -1,4 +1,4 @@
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('verbruikChart');
 
 let data = {
     labels: ["jan", "feb", "mar", "apr", "mei", "jun"],
@@ -23,3 +23,4 @@ let config = {
 }
 
 let myChart = new Chart(ctx, config)
+

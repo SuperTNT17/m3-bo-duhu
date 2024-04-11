@@ -80,5 +80,11 @@ body{
 }
 
 #fifth-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sixth-card{
     padding: 2rem;
 }
