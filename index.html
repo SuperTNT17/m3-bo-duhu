@@ -1,40 +1,28 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="nl">
-=======
-<html lang="en">
->>>>>>> daniel
 
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
-<<<<<<< HEAD
      <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
      <script src="main.js" defer></script>
-     <title>Duurzaam huis dashboard</title>
      <meta name="description"
           content="Dit is het dashboard voor het duurzame huis. Je kan hier aflezen hoe duurzaam het huis is en je kan de verschillende lampen aansturen.">
-=======
-     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-     
-     <script src="main.js"></script>
      <title>Duurzaam huis dashboard</title>
->>>>>>> daniel
 </head>
 
 <body>
      <section class="collections">
-<<<<<<< HEAD
 
           <ul class="collectionList">
                <li class="collectionsListItem">
                     <h2 class="title"> lamp's </h2>
-                    
+
                     <img id="img" src="/img/lampaan.jpeg" alt="">
-                    <div class="button"> 
+                    <div class="button">
                          <button id="ButtonOn"> On </button>
-                         <button id="ButtonOff"> Off  </button>
+                         <button id="ButtonOff"> Off </button>
                     </div>
                </li>
 
@@ -42,15 +30,15 @@
                     <h2 class="title"> Out house</h2>
                     <br>
                     <p class="graden"> 15°</p>
-                    <img  class="huisImg" src="/img/Tekengebied 1.jpg" alt="">
-                    
+                    <img  id="lampuitIf" class="huisImg" src="/img/Tekengebied 1.jpg" alt="">
+
                </li>
 
                <li class="collectionsListItem">
                     <h2 class="title"> In house</h2>
                     <br>
                     <p class="graden"> 21°</p>
-                    <img  class="huisImg" src="/img/Tekengebied 1.jpg" alt="">
+                    <img class="huisImg" src="/img/Tekengebied 1.jpg" alt="">
                </li>
 
                <li class="collectionsListItem" id="fourth-card">
@@ -74,59 +62,18 @@
                <li class="collectionsListItem" id="sixth-card">
                     <canvas id="verbruikChart"></canvas>
                </li>
-=======
-          
-          
-          <ul class="collectionList">
-                    <li class="collectionsListItem">
-                         <h2 class="title"> lamp's </h2>
-                    </li>
-     
-                    <li class="collectionsListItem">
-                         <h2 class="title"> Out house</h2>
-                    </li>
-     
-                    <li class="collectionsListItem">
-                         <h2 class="title"> In house</h2>
-                    </li>
-     
-                    <li class="collectionsListItem" id="fourth-card">
-                         <img src="img/lampaan.jpeg">
-                         <div>
-                              <div class="time-input">
-                                   <label for="time-on">On</label>
-                                   <input type="time" id="time-on" name="time-on" min="00:00" max="23:59" required />
-                              </div>
-                              <div class="time-input">
-                                   <label for="time-off">Off</label>
-                                   <input type="time" id="time-off" name="time-off" min="00:00" max="23:59" required />
-                              </div>
-                         </div>
-                    </li>
->>>>>>> daniel
 
                <li class="collectionsListItem">
-
-               </li>
-
-               <li class="collectionsListItem">
-
-               </li>
-
-               <li class="collectionsListItem">
-<<<<<<< HEAD
-
-=======
                     <h2>lamp is aan</h2>
+                    <img id="lampaanIf" src="/img/lampaan.jpeg" alt="">
                </li>
 
                <li class="collectionsListItem">
-                <canvas id="weatherForecastChart"></canvas>
+                    <canvas id="weatherForecastChart"></canvas>
                </li>
 
                <li class="collectionsListItem">
-                <canvas id="myChart"></canvas>
->>>>>>> daniel
+                    <canvas id="myChart"></canvas>
                </li>
 
           </ul>
