@@ -4,7 +4,7 @@ const off = document.getElementById("ButtonOff")
 const img = document.getElementById("img")
 const lampaan = document.getElementById("lampaanIf")
 const lampuit = document.getElementById("lampuitIf")
-
+const lampText = document.getElementById("lampText");
 
 
 
@@ -12,14 +12,18 @@ const lampuit = document.getElementById("lampuitIf")
 
 
 on.addEventListener("click", () => {
-    img.src = "/img/lampaan.jpeg";
+    img.src = "img/lampaan_kleiner.jpg";
+    img.classList.remove("lampUit");
+    lampText.innerHTML = "lamp is aan";
     lampaan.src = img.src
 })
 
 
 
 off.addEventListener("click", () => {
-    img.src = "/img/lampuit.png";
+    img.src = "img/lampuit_kleiner.png";
+    img.classList.add("lampUit");
+    lampText.innerHTML = "lamp is uit";
     lampaan.src = img.src
 })
 
@@ -60,8 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
             datasets: [{
                 label: 'Temperature (°C)',
                 data: [22, 24, 21, 25, 23, 26, 27],
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgba(54, 162, 235, 1)',
+                backgroundColor: "#EEEEEE",
+                borderColor: "#FFFF00",
                 borderWidth: 1,
                 tension: 0.4
             }]
@@ -82,8 +86,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 label: '# kwh per jaar zonnepanelen',
                 data: [300, 350],
                 backgroundColor: [
-                    'rgba(255, 0, 0, 0.8)',
-                    'rgba(0, 255, 241, 0.8)',
+                    '#FFFF00',
+                    '#EEEEEE',
                 ],
                 borderColor: [
                     'rgba(0, 0, 0, 0.8)',
